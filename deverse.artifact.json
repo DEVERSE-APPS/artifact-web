@@ -1,0 +1,9 @@
+{
+  "id": "%%NAME%%",
+  "type": "webapp",
+  "path": "%%BASE_PATH%%",
+  "port": "%%PORT%%",
+  "dev": "vite",
+  "build": "tsc -b && vite build",
+  "publicDir": "dist"
+}
